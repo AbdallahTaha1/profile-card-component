@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #19a1ad;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.circle1 {
+    position: fixed;
+    top: -500px;
+    left: -400px;
+}
+.circle2 {
+    position: fixed;
+    bottom: -600px;
+    right: -300px;
+}
+section {
+    height: 410px;
+    width: 370px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    z-index: 1;
+    box-shadow: 2px 3px 50px #104146;
+}
+.panner {
+    width: 100%;
+    position: relative;
+    top: -10px;
+
+}
+.panner img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.photo {
+    display: inline-block;
+    border-radius: 100%;
+    padding: 5px;
+    position: relative;
+    top: -65px;
+    left: 35%;
+    background-color: #f1f1f1;
+}
+.photo img {
+    border-radius: 100%;
+}
+.text {
+    position: relative;
+    top: -60px; 
+    text-align: center;
+    width: 100%;
+}
+.text h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.number {
+    font-size: 23px;
+    font-weight: normal;
+    margin-left: 5px;
+    color: hsl(0deg 0% 59%);
+}
+.text h3.city {
+    font-weight: normal;
+    font-size: 15px;
+    color: hsl(0deg 0% 59%);
+}
+
+.stats-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stats {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.caption {
+    color: hsl(0deg 0% 59%);
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+
+.attribution {
+    position: absolute;
+    bottom: 5%;
+}
